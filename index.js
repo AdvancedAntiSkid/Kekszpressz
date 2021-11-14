@@ -39,6 +39,5 @@ express.get("/", sessionMiddleWare, async (request, response) => {
 });
 
 express.listen(80, () => {
-  console.log("The web server has started! 
-");
+  console.log("The web server has started!");
 });
